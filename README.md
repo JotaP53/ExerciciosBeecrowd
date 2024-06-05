@@ -1,0 +1,1 @@
+Este repositório é destinado a responder questões do site beecrowd como forma de treinar lógica de programação e algoritmos.
