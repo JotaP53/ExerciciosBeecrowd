@@ -3,8 +3,8 @@ import math
 x1, y1 = input().split()
 x2, y2 = input().split()
 
-distancia = math.sqrt(((float(x2) - float(x1)) * (float(x2) - float(x1))) +
-                      ((float(y2) - float(y1)) * (float(y2) - float(y1))))
+distancia = math.sqrt(((float(x2) - float(x1)) * (float(x2) - float(x1)))
+                      + ((float(y2) - float(y1)) * (float(y2) - float(y1))))
 
 print("%.4f" % distancia)
 
@@ -14,7 +14,7 @@ print("%.4f" % distancia)
 x1, y1 = input().split()
 x2, y2 = input().split()
 
-distancia = (((float(x2) - float(x1)) ** 2) +
-             ((float(y2) - float(y1)) ** 2)) ** (1/2)
+distancia = (((float(x2) - float(x1)) ** 2)
+             + ((float(y2) - float(y1)) ** 2)) ** (1/2)
 
 print("%.4f" % distancia)
